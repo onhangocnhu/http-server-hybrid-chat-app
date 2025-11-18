@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "username": "admin",
+      "password": "secret"
+    },
+    {
+      "username": "peer1",
+      "password": "1234"
+    },
+    {
+      "username": "peer2",
+      "password": "1234"
+    },
+    {
+      "username": "peer3",
+      "password": "1234"
+    },
+    {
+      "username": "peer4",
+      "password": "1234"
+    },
+    {
+      "username": "peer5",
+      "password": "1234"
+    }
+  ],
+  "cookies": []
+}
