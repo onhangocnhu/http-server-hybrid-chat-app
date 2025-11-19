@@ -1,6 +1,6 @@
-# WeApRous
+# http-server-hybrid-chat-app
 
-***WeApRous*** is a lightweight educational web framework designed for Computer Network coursework in *VNU-HCM Ho Chi Minh City University of Technology (HCMUT)*. It provides a fully custom HTTP stack, a minimal web server, routing, cookie/session handling, and a hybrid P2P chat module. 
+***http-server-hybrid-chat-app*** is a lightweight educational web framework designed for Computer Network coursework in *VNU-HCM Ho Chi Minh City University of Technology (HCMUT)*. It provides a fully custom HTTP stack, a minimal web server, routing, cookie/session handling, and a hybrid P2P chat module. 
 
 The entire system is implemented without external web frameworks, allowing full control over request parsing, response handling, and network behavior.
 
@@ -136,5 +136,6 @@ Each peer operates as an independent backend capable of:
 - Opening direct chat channels
 - Broadcasting messages
 - Exchanging P2P messages without going through the tracker
+
 
 Open the browser, for your Peer, enter ``http://{your_peer_ip}:{your_peer_port}/submit-info`` to continue. 
