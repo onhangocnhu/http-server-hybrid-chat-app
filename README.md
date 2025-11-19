@@ -12,18 +12,18 @@ weparous/
 ├── config/
 │   ├── proxy.conf        # Configuration for proxy
 ├── daemon/
+│   ├── weaprous.py       # WeApRous object to deploy RESTful url web app with routing
+│   ├── backend.py        # backend server using Python's socket and threading libraries
+│   ├── proxy.py          # a simple proxy server using Python's socket and threading libraries
 │   ├── request.py        # Custom Request parser (cookies, headers, body)
 │   ├── response.py       # Response builder with MIME handling
 │   ├── httpadapter.py    # HTTP handler for all incoming requests
-│   ├── router.py         # Dynamic routing system
 │   ├── dictionary.py     # Case-insensitive dict for headers
 │   ├── utils.py          # Helper utilities
-│
 ├── start_backend.py  # Backend for tracker server
 ├── start_proxy.py    # Reverse-proxy with round-robin load balancing
 ├── start_peer.py     # Standalone P2P backend for each peer
 ├── start_sampleapp.py # Backend that serves UI login, dashboard pages
-│
 ├── www/
 │   ├── login.html
 │   ├── index.html
