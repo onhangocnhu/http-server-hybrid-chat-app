@@ -136,3 +136,5 @@ Each peer operates as an independent backend capable of:
 - Opening direct chat channels
 - Broadcasting messages
 - Exchanging P2P messages without going through the tracker
+
+Open the browser, for your Peer, enter ``http://{your_peer_ip}:{your_peer_port}/submit-info`` to continue. 
